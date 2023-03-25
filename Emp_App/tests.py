@@ -132,7 +132,6 @@ def update_record():
     r=requests.put(url=emp_url,data=jsondata, headers= {'Authorization':'jwt ' + login_user(), 'Accept': 'application/json',
         'Content-Type': 'application/json'})
     data=r.json()
-    print(data)    
 # update_record()
 
 
